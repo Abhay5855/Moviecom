@@ -10,12 +10,16 @@ function LandingFooter() {
 
             <ul>
                 <li>
-                    <span>Created By - Abhay Patil</span>
+                    <span className='footer__icons'>Created By - Abhay Patil</span>
                 </li>
 
-                <li>
-                   <span></span>
+                <li className='footer__move'>
+                   <span className='footer__icons'><i class="far fa-envelope"></i></span>
 
+                </li>
+
+                <li className='footer__move'>
+                    <span className='footer__icons'><i class="fab fa-github"></i></span>
                 </li>
             </ul>
 

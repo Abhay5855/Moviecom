@@ -1,0 +1,61 @@
+
+
+
+:root {
+      --background:#040104;
+      --color:#ffffff;
+    
+}
+
+
+.footer__container {
+
+    background-color: var(--background);
+    padding: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+     
+}
+
+
+.footer__container ul {
+
+         display: flex;
+         flex-wrap: wrap;
+         gap: 3%;
+         align-items: center;
+         position: relative;
+         
+}
+
+.footer__container ul li span {
+    color: var(--color);
+}
+
+
+.footer__icons i {
+
+      font-size: 1.8rem;
+      cursor: pointer;
+    
+}
+
+.footer__move  span .fa-envelope{
+      position: absolute;
+      padding-left: 185px;
+      display: inline-block;
+}
+
+
+.footer__move  span .fa-github{
+    position: absolute;
+    padding-left: 220px;
+    display: inline-block;
+}
+
+
+
+
+
