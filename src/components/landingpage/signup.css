@@ -1,0 +1,21 @@
+
+
+:root {
+     --color : #fff;
+     --background : rgb(0, 0, 0, 0.65);
+}
+
+.signup__container {
+
+       margin: 0 auto;
+       color: var(--color);
+       z-index: 2;
+       padding: 60px 65px;
+       background-color: var(--background);
+       
+
+
+       
+}
+
+  
