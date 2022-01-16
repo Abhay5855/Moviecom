@@ -2,13 +2,34 @@
 
 
 import React from 'react'
+import './footer.css'
 
 function LandingFooter() {
     return (
-        <div>
+        <footer className='footer__container'>
+
+            <ul>
+                <li>
+                    <span>Created By - Abhay Patil</span>
+                </li>
+
+                <li>
+                   <span></span>
+
+                </li>
+            </ul>
+
+
+
+
+
+
+
+
+
             
-        </div>
+        </footer>
     )
 }
 
-export default LandingFooter
+export default LandingFooter;
