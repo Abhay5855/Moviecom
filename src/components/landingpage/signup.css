@@ -42,7 +42,7 @@
      outline:none;
      border-radius: 5px;
      padding: 0.3rem;
-     margin-bottom: 0.8rem;
+     margin-bottom: 0.6rem;
      
 }
 
@@ -59,12 +59,23 @@ h4 {
 
 .signup__help {
        display: flex;
-       justify-content: right;
-       margin-top: 0.3rem;
+       justify-content: left;
+      
 }
 
 .signup__help span{
 
       font-size: 0.6rem;
       cursor: pointer;
+}
+
+.signin__acc a {
+        
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.signin__acc span {
+     font-size: 0.6rem;
+     
 }
