@@ -6,7 +6,7 @@ import Login from "./Login";
 
 function LandingPage() {
   return (
-    <div>
+    <div className="landing__container">
       <Login />
 
       <LandingFooter />
