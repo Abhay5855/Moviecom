@@ -1,7 +1,8 @@
 import React from "react";
-import "./signup.css";
+import "./login.css";
+import {useHistory} from 'react-router-dom'
 
-function Signup() {
+function Login() {
   return (
     <div className="signup__container">
       <form autoComplete="off">
@@ -32,7 +33,7 @@ function Signup() {
         </div>
 
         <div className="signin__acc">
-          <span>Don't Have a account? <a>Sign Up</a></span>
+          <span>Don't Have a account? <p>Sign Up</p></span>
 
         </div>
 
@@ -44,4 +45,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Login;

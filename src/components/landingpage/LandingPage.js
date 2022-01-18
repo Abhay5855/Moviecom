@@ -1,12 +1,13 @@
 import React from "react";
 import "./landing.css";
 import LandingFooter from "./LandingFooter";
-import Signup from "./Signup";
+import Login from "./Login";
+
 
 function LandingPage() {
   return (
     <div>
-      <Signup />
+      <Login />
 
       <LandingFooter />
     </div>
