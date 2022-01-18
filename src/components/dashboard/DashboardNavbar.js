@@ -2,7 +2,7 @@ import React from "react";
 import "./dashboard_navbar.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-function Dashboard_Navbar() {
+function DashboardNavbar() {
   return (
     <Router>
       <nav className="dashboard__nav">
@@ -35,4 +35,4 @@ function Dashboard_Navbar() {
   );
 }
 
-export default Dashboard_Navbar;
+export default DashboardNavbar;

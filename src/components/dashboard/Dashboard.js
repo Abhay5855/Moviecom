@@ -1,12 +1,9 @@
 
-
-
-
 import React from 'react'
-import Dashboard_Movies from './Dashboard_Movies'
-import Dashboard_Sidebar from './Dashboard_Sidebar'
 import './dashboard.css'
-import Dashboard_Navbar from './Dashboard_Navbar'
+import DashboardNavbar from './DashboardNavbar'
+import AllMovies from './AllMovies'
+import requests from '../../api_requests/requests'
 
 function Dashboard() {
     return (
@@ -17,7 +14,16 @@ function Dashboard() {
 
             {/* dashboard navbar */}
               
-              <Dashboard_Navbar />
+              <DashboardNavbar />
+
+              <AllMovies title='Trending' fetchUrl={requests.fetchTrending}/>
+              <AllMovies title='Top Rated' fetchUrl={requests.fetchTopRated}/>
+              <AllMovies title='Comedy' fetchUrl={requests.fetchComedyMovies}/>
+              <AllMovies title='Horror' fetchUrl={requests.fetchHorrorMovies}/>
+              <AllMovies title='Action' fetchUrl={requests.fetchActionMovies}/>
+            
+
+              {/* <Dashboard_Movies /> */}
 
 
 
