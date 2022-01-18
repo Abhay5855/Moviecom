@@ -1,13 +1,66 @@
 
 
+:root {
+
+    --nav_background: #000;
+    --logo : #BF3325;
+    --span : #fff;
+    --icons : #CAD5E2;
+
+}
+
 
 .dashboard__nav ul li{
 
     display: flex;
     flex-wrap: wrap;
     display: inline-block;
-   
+    gap:3%;
+    align-items: center;
     
+}
+
+
+.dashboard__nav {
+     padding: 0.5rem;
+     background-color: var(--nav_background);
+}
+
+.dashboard__nav li p {
+
+      color:var(--logo) ;
+      font-size: 1.5rem;
+      font-weight: 600;
+}
+
+
+.dashboard__nav li {    
+
+     padding-right: 2rem;
+   
+}
+
+
+.dashboard__nav li p span {
+
+    color:var(--span);
+  
+}
+
+.dashboard__nav li i {
+
+    color:var(--icons) ;
+  
+
+}
+
+.logout {
+      color:var(--span);
+}
+
+
+.fas fa-plus {
+     color: var(--logo);
 }
 
 

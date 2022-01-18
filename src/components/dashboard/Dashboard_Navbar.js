@@ -7,21 +7,27 @@ function Dashboard_Navbar() {
     <Router>
       <nav className="dashboard__nav">
         <ul>
+            <li>
+                <p>Movie<span>com</span></p>
+            </li>
+
           <li>
-            <Link style={{textDecoration :'none'}} to="/">Logout</Link>
+            <Link style={{textDecoration :'none'}} to="/home"><i class="fas fa-home"></i></Link>
           </li>
 
           <li>
-            <Link style={{textDecoration :'none'}} to="/home">Home</Link>
+            <Link style={{textDecoration :'none'}} to="/community"><i class="far fa-comments"></i></Link>
           </li>
 
           <li>
-            <Link style={{textDecoration :'none'}} to="/community">Community</Link>
+            <Link style={{textDecoration :'none'}} to="/mylist"><i class="fas fa-plus"></i><span className="logout">My List</span></Link>
           </li>
 
           <li>
-            <Link style={{textDecoration :'none'}} to="/mylist">List</Link>
+            <Link style={{textDecoration :'none'}} to="/"><span className="logout">Logout</span></Link>
           </li>
+
+
 
         </ul>
       </nav>
