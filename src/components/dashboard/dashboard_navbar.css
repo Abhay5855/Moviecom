@@ -1,6 +1,13 @@
 
 
 
-.dashboard__nav {
+.dashboard__nav ul li{
+
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+   
     
 }
+
+
