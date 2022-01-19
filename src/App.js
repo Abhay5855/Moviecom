@@ -1,16 +1,14 @@
 import "./App.css";
 
-import Dashboard from "./components/dashboard/Dashboard";
+import Routes from './components/routes/Routes'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
-      
-      {/* <Signup /> */}
+    
 
-      <Dashboard />
+      <Routes />
 
       
 

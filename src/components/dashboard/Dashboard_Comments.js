@@ -7,7 +7,7 @@ function Dashboard_Comments() {
     return (
         <div>
 
-            Comments
+           <h2>community</h2>
             
         </div>
     )

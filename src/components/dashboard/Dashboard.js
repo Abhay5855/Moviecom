@@ -16,12 +16,12 @@ function Dashboard() {
               
               <DashboardNavbar />
 
-              <AllMovies title='Trending' fetchUrl={requests.fetchTrending}/>
+              {/* <AllMovies title='Trending' fetchUrl={requests.fetchTrending}/>
               <AllMovies title='Top Rated' fetchUrl={requests.fetchTopRated}/>
               <AllMovies title='Comedy' fetchUrl={requests.fetchComedyMovies}/>
               <AllMovies title='Horror' fetchUrl={requests.fetchHorrorMovies}/>
               <AllMovies title='Action' fetchUrl={requests.fetchActionMovies}/>
-            
+             */}
 
               {/* <Dashboard_Movies /> */}
 
