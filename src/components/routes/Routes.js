@@ -18,6 +18,7 @@ function MainRoutes() {
                 <Route exact path='/community' component={Dashboard_Comments} />
                 <Route exact path='/dashboard' component={Dashboard} />
                 <Route exact path='/signup' component={Signup} />
+                
             </Router>
 
            
